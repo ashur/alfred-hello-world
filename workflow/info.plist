@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string>cab.ashur.alfred.HelloWorld</string>
+	<key>connections</key>
+	<dict>
+		<key>40BC9917-B965-4169-9102-F094A86FEA15</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>ED54AEDF-D24D-45F6-A0AF-C40C0AA321B8</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+	</dict>
+	<key>createdby</key>
+	<string>Ashur Cabrera</string>
+	<key>description</key>
+	<string>Paste “Hello, world.” into the frontmost app</string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>Hello, World</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>hello</string>
+				<key>subtext</key>
+				<string>Paste “Hello, world.” into the frontmost app</string>
+				<key>text</key>
+				<string>Hello, World</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>40BC9917-B965-4169-9102-F094A86FEA15</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>autopaste</key>
+				<true/>
+				<key>clipboardtext</key>
+				<string>Hello, world.</string>
+				<key>transient</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.clipboard</string>
+			<key>uid</key>
+			<string>ED54AEDF-D24D-45F6-A0AF-C40C0AA321B8</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string></string>
+	<key>uidata</key>
+	<dict>
+		<key>40BC9917-B965-4169-9102-F094A86FEA15</key>
+		<dict>
+			<key>xpos</key>
+			<integer>60</integer>
+			<key>ypos</key>
+			<integer>60</integer>
+		</dict>
+		<key>ED54AEDF-D24D-45F6-A0AF-C40C0AA321B8</key>
+		<dict>
+			<key>xpos</key>
+			<integer>230</integer>
+			<key>ypos</key>
+			<integer>60</integer>
+		</dict>
+	</dict>
+	<key>variables</key>
+	<dict>
+		<key>secret</key>
+		<string>This is a secret variable</string>
+		<key>who</key>
+		<string>world</string>
+	</dict>
+	<key>variablesdontexport</key>
+	<array>
+		<string>secret</string>
+	</array>
+	<key>version</key>
+	<string>1.0.0</string>
+	<key>webaddress</key>
+	<string>https://github.com/ashur/alfred-hello-world</string>
+</dict>
+</plist>
